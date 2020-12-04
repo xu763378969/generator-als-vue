@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/xuyao/.nvm/versions/node/v12.18.2/bin/node /Users/xuyao/.nvm/versions/node/v12.18.2/bin/yarn publish
+
+PATH: 
+  /Users/xuyao/development/flutter/bin:/usr/local/mongodb/bin:/Users/xuyao/.nvm/versions/node/v12.18.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/xuyao/.rvm/bin:/usr/local/mysql/bin:/usr/local/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/-/user/org.couchdb.user:xu763378969: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/xuyao/.nvm/versions/node/v12.18.2/lib/node_modules/yarn/lib/cli.js:141375:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:709:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:481:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "generator-als-vue",
+    "version": "0.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "yeoman-generator": "^4.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
